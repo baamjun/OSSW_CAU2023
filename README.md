@@ -33,6 +33,8 @@
 - IPython : 7.31.1
 - ipykernel : 6.15.2
 - scikit-learn : 1.2.2
+- scikit-image : 0.22.0
+- numpy : 1.24.1
 
 ## Getting Started
 
