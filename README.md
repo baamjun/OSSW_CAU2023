@@ -1,8 +1,8 @@
 # OSSW_CAU2023
 
 ## What i do?
-이 레포지토리는 Open Source SoftWare 강의의 프로젝트 제출물을 위한 레포지토리입니다.
-기말 프로젝트는 중앙대학교 Open Source SoftWare 강의의 e-class에서 제공한 tumor dataset을 통해
+이 레포지토리는 Open Source SoftWare 강의의 프로젝트 제출물을 위한 레포지토리입니다. \
+기말 프로젝트는 중앙대학교 Open Source SoftWare 강의의 e-class에서 제공한 tumor dataset을 통해 \
 뇌종양 데이터를 다양한 방법으로 학습시켜 최적의 랜덤 시드값, 분류 방법, 하이퍼 파라미터를 찾았습니다.
 
 ## 레포지토리 구조
