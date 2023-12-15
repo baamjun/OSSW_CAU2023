@@ -41,7 +41,33 @@
 ```bash
 cd final_project
 ```
-> run final_project.ipynb 
+> run final_project.ipynb
+
+## Result
+### Code
+```
+# 랜덤 시드 설정
+random_seed = 6
+np.random.seed(random_seed)
+
+# 모델 선택 (Support Vector Machine 사용)
+model = SVC(C=100, kernel='rbf') # 하이퍼파라미터 튜닝
+
+# 모델 훈련
+model.fit(X_train, y_train)
+
+# 모델 예측 및 평가
+y_pred = model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Test Accuracy: {accuracy}")
+```
+> Test Accuracy: 0.9175377468060395
+
+### Print accuracy (do not modify the following block)
+```
+print('Accuracy: %.2f' % sklearn.metrics.accuracy_score(y_test, y_pred))
+```
+> Accuracy: 0.92
 
 ## License
 MIT License
