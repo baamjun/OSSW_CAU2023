@@ -57,7 +57,7 @@ from sklearn.svm import SVC 로 scikit-learn에서 제공하는 Support Vector M
 
 앞서 ADAboost를 이용해 정확도를 높이려는 시도를 해보았습니다.
 Decision Tree 및 SVM 을 분류기로 사용해 ADAboost로 여러차례 학습을 시도한 결과
-단순한 분류기를 여러개로 중첩해서 하나의 강력한 분류기를 만든다는 구조 자체가 복잡한 탓에 \ 
+단순한 분류기를 여러개로 중첩해서 하나의 강력한 분류기를 만든다는 구조 자체가 복잡한 탓에 \
 학습에 드는 시간과 비용이 매우 컸습니다.
 
 때문에 상대적으로 구조가 단순해서 최적화하기에 효율적인 Support Vector Machine 단일 분류기를 채택하였습니다.
